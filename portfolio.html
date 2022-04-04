@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Шапка страницы -->
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="header-logo-link link" href="./index.html"
+            ><span class="header-logo">Web</span>Studio</a
+          >
+          <ul class="nav-list list">
+            <li class="nav-list-item">
+              <a class="nav-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-link link current" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-address-list list">
+          <li class="header-item-mail">
+            <a class="address-link link" href="mailto:info@devstudio.com"
+              ><svg class="mail-icon" width="16px" height="12px">
+                <use href="./images/icons/symbol-defs.svg#envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header-item-phone">
+            <a class="address-link link" href="tel:+380961111111">
+              <svg class="smartphone-icon" width="10px" height="16px">
+                <use href="./images/icons/symbol-defs.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Основная часть -->
+    <main>
+      <!-- Список фильтра -->
+      <section class="section container">
+        <h1 class="visually-hidden">Our works</h1>
+        <ul class="filter-list list">
+          <li class="filter-item">
+            <button class="filter-btn" type="button">Все</button>
+          </li>
+          <li class="filter-item">
+            <button class="filter-btn" type="button">Веб-сайты</button>
+          </li>
+          <li class="filter-item">
+            <button class="filter-btn" type="button">Приложения</button>
+          </li>
+          <li class="filter-item">
+            <button class="filter-btn" type="button">Дизайн</button>
+          </li>
+          <li class="filter-item">
+            <button class="filter-btn" type="button">Маркетинг</button>
+          </li>
+        </ul>
+        <!-- Список карточек работ, пока без ссылок -->
+        <ul class="projects-list list">
+          <li class="projects-card">
+            <a class="project-link link" href="">
+              <img
+                class="project-pic"
+                src="./images/technokryak.jpg"
+                alt="Екран компьютера с открытой страницей веб-сайта"
+                width="370"
+                height="294"
+              />
+              <div class="project-desc">
+                <h2 class="project-title">Технокряк</h2>
+                <p>Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a class="project-link link" href="">
+              <img
+                class="project-pic"
+                src="./images/new-orlean-vs-golden-star.jpg"
+                alt="Арт с двумя баскетболистами в игре"
+                width="370"
+                height="294"
+              />
+              <div class="project-desc">
+                <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+                <p>Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a class="project-link link" href="">
+              <img
+                class="project-pic"
+                src="./images/seafood-restaurant.jpg"
+                alt="Логотип ресторана"
+                width="370"
+                height="294"
+              />
+              <div class="project-desc">
+                <h2 class="project-title">Ресторан Seafood</h2>
+                <p>Приложение</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a class="project-link link" href="">
+              <img
+                class="project-pic"
+                src="./images/prime-prj.jpg"
+                alt="Наушники"
+                width="370"
+                height="294"
+              />
+              <div class="project-desc">
+                <h2 class="project-title">Проект Prime</h2>
+                <p>Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a class="project-link link" href="">
+              <img
+                class="project-pic"
+                src="./images/boxes-prj.jpg"
+                alt="Коробки с логотипами"
+                width="370"
+                height="294"
+              />
+              <div class="project-desc">
+                <h2 class="project-title">Проект Boxes</h2>
+                <p>Приложение</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a class="project-link link" href="">
+              <img
+                class="project-pic"
+                src="./images/instipation-has-no-borders.jpg"
+                alt="Екран компьютера с открытой страницей веб-сайта"
+                width="370"
+                height="294"
+              />
+              <div class="project-desc">
+                <h2 class="project-title">Inspiration has no Borders</h2>
+                <p>Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a class="project-link link" href="">
+              <img
+                class="project-pic"
+                src="./images/limited-edition.jpg"
+                alt="Разворот журнала с фотографиями"
+                width="370"
+                height="294"
+              />
+              <div class="project-desc">
+                <h2 class="project-title">Издание Limited Edition</h2>
+                <p>Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a class="project-link link" href="">
+              <img
+                class="project-pic"
+                src="./images/lab-prj.jpg"
+                alt="Этикетка с логотипом"
+                width="370"
+                height="294"
+              />
+              <div class="project-desc">
+                <h2 class="project-title">Проект LAB</h2>
+                <p>Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a class="project-link link" href="">
+              <img
+                class="project-pic"
+                src="./images/growing-business.jpg"
+                alt="Главная страница сайта на екране ноутбука во время работы пользователя"
+                width="370"
+                height="294"
+              />
+              <div class="project-desc">
+                <h2 class="project-title">Growing Business</h2>
+                <p>Приложение</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <a class="footer-logo-link link" href="./index.html"
+            ><span class="footer-logo">Web</span>Studio</a
+          >
+          <address class="footer-address">
+            <ul class="footer-address-list list">
+              <li class="footer-item">
+                <a
+                  class="footer-address-link link"
+                  href="https://goo.gl/maps/t5yJXCLs88y3g8ho9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-item">
+                <a
+                  class="footer-address-mail link"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-address-phone link" href="+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-socials">
+          <p>присоединяйтесь</p>
+          <ul class="social-list-footer list">
+            <li class="social-items-footer">
+              <a href="" class="social-icon-footer link">
+                <svg class="icon" width="20px" height="20px">
+                  <use href="./images/icons/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items-footer">
+              <a href="" class="social-icon-footer link">
+                <svg class="icon" width="20px" height="20px">
+                  <use href="./images/icons/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items-footer">
+              <a href="" class="social-icon-footer link"
+                ><svg class="icon" width="20px" height="20px">
+                  <use href="./images/icons/symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items-footer">
+              <a href="" class="social-icon-footer link"
+                ><svg class="icon" width="20px" height="20px">
+                  <use href="./images/icons/symbol-defs.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
